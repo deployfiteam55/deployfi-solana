@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+backend/target/
+backend/.anchor/
+frontend/dist/
+.DS_Store
+Thumbs.db
+frontend/src/constants/idl.json

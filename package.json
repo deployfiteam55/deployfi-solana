@@ -1,0 +1,22 @@
+{
+  "name": "deployfi",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently --names 'FRONTEND,BACKEND' --prefix-colors 'cyan,magenta' \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && anchor build && solana-test-validator --reset",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && anchor build",
+    "test:backend": "cd backend && anchor test",
+    "deploy:devnet": "cd backend && anchor deploy --provider.cluster devnet",
+    "sync:idl": "cd backend && cp target/idl/launchpad.json ../frontend/src/constants/idl.json"
+  },
+  "devDependencies": {
+    "@marinade.finance/marinade-ts-sdk": "^4.0.3",
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
