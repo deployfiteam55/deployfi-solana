@@ -39,7 +39,7 @@ export default function Home() {
 
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
             DeployFi is your all-in-one DeFi launchpad. Create tokens, swap assets via Jupiter,
-            earn yield on Kamino, and stake SOL with Marinade — all in one click.
+            earn yield on Kamino, and stake SOL with Marinade all in one click.
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap">
