@@ -5,7 +5,7 @@ import { useBestYield } from '../hooks/useBestYield'
 
 const features = [
   { icon: '🪙', title: 'Launch Tokens', desc: 'Create SPL tokens with metadata in one transaction. No code required.', link: '/launch' },
-  { icon: '🔄', title: 'One-Click DeFi', desc: 'Swap via Jupiter, stake with Marinade, earn yield on Kamino — all in one click.', link: '/defi' },
+  { icon: '🔄', title: 'One-Click DeFi', desc: 'Swap via Jupiter, stake with Marinade, earn yield on Kamino all in one click.', link: '/defi' },
   { icon: '📊', title: 'Live Dashboard', desc: 'Track your portfolio, token launches, and active yields in real time.', link: '/dashboard' },
 ]
 
