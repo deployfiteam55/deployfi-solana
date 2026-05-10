@@ -67,7 +67,7 @@ export default function DeFi() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-black text-white mb-2">One Click DeFi</h1>
-          <p className="text-gray-400">Select your goal, enter amount, execute — it's that simple.</p>
+          <p className="text-gray-400">Select your goal, enter amount, execute it's that simple.</p>
         </div>
 
         <PriceTicker />
